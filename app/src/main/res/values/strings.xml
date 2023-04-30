@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyCapstone</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="coba_lagi">Try Again</string>
+    <string name="waiting">please wait..</string>
+    <string name="leangue">Leangue</string>
+    <string name="rank">Rank</string>
+    <string name="logo">Logo</string>
+    <string name="symbol">Symbol</string>
+    <string name="price">Price($)</string>
+    <string name="_24h_n_change">24h% \n Change</string>
+    <string name="favorite_icon">favorite_icon</string>
+    <string name="total_suply">Total Suply</string>
+    <string name="max_suply">Max Suply</string>
+    <string name="platform">Platform</string>
+    <string name="date_add">Date Add</string>
+    <string name="market_cap">Market Cap</string>
+    <string name="percent_change_1h">Percent Change 1H (%)</string>
+    <string name="percent_change_24h">Percent Change 24H (%)</string>
+    <string name="percent_change_7d">Percent Change 7D (%)</string>
+    <string name="volume_24h">Volume 24H ($)</string>
+    <string name="volume_change_24h">Volume Change 24H (%)</string>
+    <string name="last_updated">Last Updated</string>
+</resources>

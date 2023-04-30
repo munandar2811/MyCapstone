@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="rank">rank</string>
+    <string name="logo">Logo</string>
+    <string name="symbol">Symbol</string>
+    <string name="price">Price($)</string>
+    <string name="_24h_n_change">24h% \n Change</string>
+</resources>

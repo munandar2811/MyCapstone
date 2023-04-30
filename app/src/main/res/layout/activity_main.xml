@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".main.MainActivity">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/purple_500"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:text="@string/rank"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.1"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="@string/logo"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.1"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="@string/symbol"
+                    android:layout_weight="0.2"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="@string/price"
+                    android:layout_weight="0.3"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="@string/_24h_n_change"
+                    android:layout_weight="0.2"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_main"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            tools:itemCount="20"
+            tools:listitem="@layout/item_coin"
+            android:layout_marginTop="4.dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/header" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1"
+            app:layout_constraintHorizontal_bias="1"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/favorite_btn"
+            android:contentDescription="@string/title_favorite" />
+
+        <include
+            android:id="@+id/loading_view"
+            layout="@layout/loading_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="9dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

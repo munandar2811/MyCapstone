@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyCapstone</string>
+    <string name="title_favorite">Kesukaan</string>
+    <string name="coba_lagi">Coba Lagi</string>
+    <string name="waiting">Silakan menunggu..</string>
+    <string name="leangue">Bahasa</string>
+    <string name="rank">Peringkat</string>
+    <string name="logo">Logo</string>
+    <string name="symbol">Simbol</string>
+    <string name="price">Harga($)</string>
+    <string name="_24h_n_change">24h% \n Perubahan</string>
+    <string name="favorite_icon">favorite_icon</string>
+    <string name="total_suply">Total Suplai</string>
+    <string name="max_suply">Max Suplai</string>
+    <string name="platform">Perangkat</string>
+    <string name="date_add">Date Add</string>
+    <string name="market_cap">Market Cap</string>
+    <string name="percent_change_1h">Persen Perubahan 1H (%)</string>
+    <string name="percent_change_24h">Persen Perubahan 24H (%)</string>
+    <string name="percent_change_7d">Persen Perubahan 7D (%)</string>
+    <string name="volume_24h">Volum 24H ($)</string>
+    <string name="volume_change_24h">Volum Perubahan 24H (%)</string>
+    <string name="last_updated">Update Terakhir</string>
+</resources>
