@@ -18,7 +18,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
 
-        buildConfigField("String", "KEY", "\"X-CMC_PRO_API_KEY,f6934965-f3bf-4e78-8081-eca923a1ff24\"");
+        buildConfigField("String", "KEY", "\"X-CMC_PRO_API_KEY,f6934965-f3bf-4e78-8081-eca923a1ff24\"")
         buildConfigField("String","BASE_URL",'"https://pro-api.coinmarketcap.com/"')
     }
 
@@ -39,7 +39,7 @@ android {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.core:core-ktx:1.10.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
 
