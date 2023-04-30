@@ -1,6 +1,5 @@
 package com.example.mycapstone.main
 
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.paging.PagingDataAdapter
@@ -44,7 +43,6 @@ class AdapterMain : PagingDataAdapter<CoinModel, AdapterMain.ViewHolder>(DIFF_CA
 
                 cmcRank.text = coin.rank.toString()
                 symbol.text = coin.symbol.toString()
-                Log.e("onCreate in adapter 2: ", symbol.toString())
                 price.text = TypeConverter.doubleToString(coin.price)
                 change24hour.text = TypeConverter.doubleToString(coin.percentChange24h)
 
