@@ -19,9 +19,12 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
-            proguardFiles  'proguard-rules.pro'
+            proguardFiles  'proguard-rules-dynamic-features.pro'
         }
+        debug {
+            proguardFiles 'proguard-rules-dynamic-features.pro'
+        }
+
     }
 
     viewBinding {
